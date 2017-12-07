@@ -1,0 +1,47 @@
+    #reportContainer {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: white;
+        padding: 10px;
+        border: 0px solid silver;
+        width: 99%;
+        height: 100%;
+    }
+    
+    #reportContainer .header {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    #reportContainer .header .title {
+        font-weight: bold;
+        line-height: 20px;
+        margin: 0px;
+        text-decoration: underline;
+        margin-top: 20px;
+    }
+    
+    #reportContainer .header .datetime {
+        font-size: 11px;
+        line-height: 20px;
+        margin: 0px;
+    }
+    
+    #reportContainer .table {
+        border-collapse: collapse;
+        width: 100%;
+        font-size: 13px;
+    }
+    
+    #reportContainer .table th,
+    #reportContainer .table td {
+        border: 1px solid gray !important;
+        text-align: left;
+        padding: 2px;
+    }
+    
+    #reportContainer .table .noborder {
+        border-top: 1px solid white !important;
+        border-right: 1px solid white !important;
+        border-left: 1px solid white !important;
+    }
